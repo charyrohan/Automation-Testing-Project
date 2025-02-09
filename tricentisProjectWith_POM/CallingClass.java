@@ -296,7 +296,7 @@ public class CallingClass {
 	 
 	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); 
 	   
-	  driver.get("http://sampleapp.tricentis.com/101/index.php#");
+	  driver.get("https://sampleapp.tricentis.com/101/index.php#");
 	 
         Vdata=new EnterVehicleDataAutomobile(driver);
 	    Tdata=new  EnterVehicalDataTruck(driver);
